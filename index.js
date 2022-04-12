@@ -31,21 +31,6 @@ var container = document.getElementById('container');
 var form = document.getElementById('input').value;
 var result = document.getElementById('result');
 var render  =document.querySelector("#form").addEventListener('submit',this.handleSubmit )
-//     e.preventDefault();
-// 	let value = e.target.input.value;
-// 	fetch(`https://api.shrtco.de/v2/shorten?url=${value}`)
-// 		.then((res) => res.json())
-// 		.then((data) => {
-// 			e.target.input.value = '';
-// 			console.log(data.result.short_link);
-// 			if (!value) {
-// 				result.innerText = 'No link available!';
-// 			} else {
-// 				result.innerText = `The shortened link is: ${data.result.short_link}`;
-// 			}
-// 		});
-// // }
-// });
 
 function handleSubmit(e) {
 	e.preventDefault();
