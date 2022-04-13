@@ -26,7 +26,7 @@
 //   let result = alternatingSums(weight);
 //   console.log("result bai 2: ", result)
 
-// //   bài 3 form = document.getElementById('form');
+// //   bài 3 :
 var container = document.getElementById('container');
 var form = document.getElementById('input').value;
 var result = document.getElementById('result');
